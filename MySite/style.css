@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+}
+body{
+    font-family:'Merriweather', serif;
+    text-align: center;
+    color: #40514E;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+    font-size: 90px;
+    color: #66BFBF;
+}
+h2{
+    font-size: 2.2rem;
+    color: #66BFBF;
+    padding-bottom: 10px;
+    
+}
+h3{
+    color: #11999E;
+}
+p{
+    line-height: 2;
+}
+hr{
+    
+    border-style: none;
+    width:5%;
+    border-top-style:dotted;
+    border-width: 5px;
+    border-color: grey;
+    padding-bottom: 55px;
+margin: auto;
+}
+a{
+    color: #11999e;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+/************************** Top Containner its own divs and images *********************/
+.top{
+    
+    padding: 50px;
+    background-color: #E4F9F5;
+position: relative;
+padding-top: 100px;
+}
+.cloud{
+    height: 70px;
+    width: 150px;
+    position: absolute;
+    right:300px;
+    top: 40px;
+}
+.cloudy{
+position: absolute;
+bottom: 300px;
+height: 70px;
+width: 150px;
+left: 250px
+}
+
+.mountain{
+    height: 200px;
+    width: 430px;
+  }
+.intro{
+    width: 35%;
+  margin: auto;
+    
+    padding-bottom: 50px;
+   
+}
+
+.girl{
+    height:100px;
+}
+
+.skill-1{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;  
+  
+}
+.s1{
+    float: left;
+    margin-right: 30px;
+}
+.s2{
+    float: right;
+    margin-left: 30px;
+}
+/************************* Middle Containner its divs and images *******************/
+.middle{
+    margin: 100px 0;
+}
+.contactmsg{
+    width: 35%;
+    margin: 40px auto 40px auto;
+}
+/* Buuton decoration */
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  /************************** Bottom Containner ************************/
+  .bottom{
+      background-color: #66BFBF;
+      padding: 50px 0 20px;
+     font-size: 20px;
+   
+  }
+  .footer{
+      color: #EAF6F6;
+    font-size: 1rem;
+  }
